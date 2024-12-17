@@ -10379,5 +10379,8 @@ const cards = [
 ];
 
 //1) while chaining array methods print each card that has a rarity value of "rare"
+const rarevalue = cards.filter((item) => item.rarity === "rare")
+console.log(rarevalue);
 
 //2)while chainign array methods, print each card that includes "ICE" in it's printings
+console.log(cards.includes('ICE'))
